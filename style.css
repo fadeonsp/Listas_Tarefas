@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+    color: #333;
+  }
+  h1{
+    text-transform: uppercase;
+    color: #ddd;
+    text-shadow: 2px 2px 0 #ccc;
+  }
+  .container{
+    margin-bottom:20px;
+  }
+  .center{
+    text-align: center;
+  }
+  .add-form, .list-container{
+    background: #fff;
+    padding:20px;
+  }
+  .list-container{
+    margin: 20px 0;
+    padding: 0;
+  }
+  .list-container li{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+    list-style: none;
+  }
+  .list-container li:last-child{
+    border: none;
+  }
+  .list-container input{
+    margin: 5px 10px;
+  }
+  .completed{
+    text-decoration: line-through;
+    font-size:.8em;
+    color: #999;
+  }
+  .progress{
+    max-height: 10px;
+    margin:20px 0 0;
+  }
